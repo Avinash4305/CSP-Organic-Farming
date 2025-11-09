@@ -1,0 +1,7 @@
+cat > railway.toml << 'EOF'
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "java -jar target/*.jar"
+EOF
